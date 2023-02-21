@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Quicksand&family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    height: 50px;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: #003153;
+    color: white;
+    font-family: roboto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+li {
+    margin-right: 20px;
+}
