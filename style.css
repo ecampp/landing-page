@@ -153,3 +153,23 @@ a {
 .desc-4 {
     max-width: 200px;
 }
+
+/* quote styling */
+
+.quote-section {
+    height: 150px;
+    background-color: #E5E7EB;
+    margin-top: 75px;
+    text-align: center;
+}
+
+.quote-section > p {
+    font-size: 24px;
+    font-family: roboto;
+}
+
+span {
+    font-size: 24px; 
+}
+
+/* notification styling */
