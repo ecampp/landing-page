@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Quicksand&family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
 
+/* styling header */
 * {
     margin: 0;
     padding: 0;
@@ -31,3 +32,53 @@ ul {
 li {
     margin-right: 20px;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* styling banner */
+
+.banner {
+    background-color: #003153;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-content: center;
+
+}
+
+.left {
+    color: white;
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right {
+    padding-right: 20px;
+}
+
+#sign-up-button {
+    width: 70px;
+    height: 20px;
+    margin-top: 20px;
+    background-color: lightskyblue;
+    border-radius: 20px;
+    border: none;
+    font-family: roboto;
+
+}
+
+.left > p {
+    margin-top:20px;
+}
+
+.left > h2 {
+    font-weight: 900;
+}
+
+/* styling info box
